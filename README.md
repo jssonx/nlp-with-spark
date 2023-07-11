@@ -1,6 +1,10 @@
-# Inside Mastodon: Toot Analysis Pipeline
+# Inside Mastodon: NLP Analysis with Spark
 
 This project implements a robust data pipeline for analyzing Mastodon toots, utilizing Apache Spark (with PySpark for Python integration) and Apache Hadoop. Designed for local and cloud (AWS Lambda) environments, it leverages Docker for seamless operation.
+
+![Architecture](./img/architecture.png)
+
+*Figure 1: Architecture of the Mastodon toot analysis pipeline.*
 
 ## Quick Start
 Run `docker-compose up` to activate the system. This command initiates the Mastodon toot extractors, the TF-IDF matrix calculation via the REST API, and provides recommendations for Mastodon users to follow based on keyword input.
