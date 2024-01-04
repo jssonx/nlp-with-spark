@@ -1,4 +1,4 @@
-# Inside Mastodon: NLP Analysis with Spark
+# Insight Mastodon: NLP Analysis with Spark
 
 This project implements a robust data pipeline for analyzing Mastodon toots, utilizing Apache Spark (with PySpark for Python integration) and Apache Hadoop. Designed for local and cloud (AWS Lambda) environments, it leverages Docker for seamless operation.
 
